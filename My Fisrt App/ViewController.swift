@@ -42,6 +42,8 @@ class ViewController: UIViewController {
     
     func showNumber(myNumber:Int) -> Void {
         print("myNumber = \(myNumber)")
+        numberLable.text = String(myNumber)
+        
     }
     
     
